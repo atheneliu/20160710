@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'fzlantingheis-r-gbregular';
+    src: url('../font/fzlthjw-webfont.eot');
+    src: url('../font/fzlthjw-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/fzlthjw-webfont.woff2') format('woff2'),
+         url('../font/fzlthjw-webfont.woff') format('woff'),
+         url('../font/fzlthjw-webfont.ttf') format('truetype'),
+         url('../font/fzlthjw-webfont.svg#fzlantingheis-r-gbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

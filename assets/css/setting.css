@@ -1,0 +1,49 @@
+.news_box{ position:relative; width:94%; margin:4% auto 0;box-shadow:0 0 10px rgba(221, 210, 210, .6); overflow:hidden; border:1px solid rgba(228, 235, 246); padding:1%; border:1px solid #e4ebf1;}
+.news_box .title{ color:#268dce; font-size:14px; }
+.news_box .edit_icon{ position:absolute; right:25px; top:25px; display:block;width:18px; height:18px; background:url(../images/edit.png) no-repeat; background-size:100% 100%; cursor:pointer;}
+.news_box .edit_icon_blue{background:url(../images/edit_blue.png) no-repeat;background-size:100% 100%;}
+.edit_box{ padding-left:200px; padding-bottom:30px;}
+.edit_box dl{ width:100%; padding:10px 0;}
+.edit_box dl dt{ line-height:24px;float:left; color:#aaa; font-weight:normal; width:25%; min-width:100px; text-align:right;}
+.edit_box dl dd{ float:left; width:65%; position:relative; padding-left:5px; vertical-align:middlel;}
+.edit_box dl dd p{ float:left; line-height:24px;}
+.edit_box dl dd .text{ display:none; vertical-align:middle; position:absolute; left:5px; top:0; width:48%; border:1px solid #d3d2d2; outline:none; border-radius:3px; height:28px; line-height:22px; padding:3px 5px;}
+.edit_box dl dd span{ float:left; padding-left:49.5%; line-height:28px; font-size:12px; color:#d3d2d2;}
+.edit_box dl dd span .tips_false{ color:#F00; padding-left:15px; background:url(../images/fail.png) no-repeat left center;}
+.edit_box dl dd span .tips_true{ padding-left:17px; background:url(../images/success.png) no-repeat left center;}
+.btns_eidt{ display:none; position:absolute; right:40px; bottom:20px;}
+.btns_eidt a{ padding:0 15px; cursor:pointer; color:#282828;}
+.btns_eidt a.save{ color:#268dce;}
+.edit_box .change{ display:none;}
+.edit_box .change dl dd .text{ display:block;}
+.change_photo{ position:absolute; top:60px; left:14%; cursor:pointer;}
+.change_photo img{ width:130px; height:130px; border:1px solid #268dce; border-radius:50%; padding:8px;}
+#box{ display:none;}
+#upload_photo{ display:none; width:520px; height:320px; position:fixed; z-index:2000 ;left:50%; top:50%; margin-left:-265px; margin-top:-160px; background:#fff; border:1px solid #e4ebf1; border-radius:3px;box-shadow:0px 0px 8px #d3d2d2; z-index:10001;}
+#upload_photo .close{ position:absolute; width:17px; height:16px; background:url(../images/FF5.png) no-repeat; background-size:100% 100%; right:8px; top:9px;}
+#upload_photo .title{ height:35px; line-height:35px; background:#f4f4f4; padding-left:10px;}
+.left_photo{ float:left; width:190px; padding-left:20px;}
+.left_photo img{ display:block; margin:10px auto; width:130px; height:130px; border:1px solid #268dce; border-radius:50%; padding:8px;}
+.left_photo p{ line-height:36px; line-height:36px; color:#cac8c8;}
+.left_photo a{ display:block; margin:20px auto; border:1px solid #268dce; border-radius:3px; width:100px; line-height:28px; color:#268dce; text-align:center; cursor:pointer;  text-decoration:none;}
+.right_photo{ width:320px; float:right;}
+.right_photo p{ line-height:36px; line-height:36px; color:#cac8c8;}
+.right_photo .choose{ width:275px; height:210px; border:1px solid #e5e5e5; margin:5px 0 0 5px;}
+.right_photo .choose button{border:1px solid #268dce; border-radius:3px; width:100px; line-height:28px; color:#268dce; text-align:center; cursor:pointer; background:none; margin:90px auto 0; display:block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

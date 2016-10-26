@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="overview &amp; stats" />
+<title>个人设置页</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<!-- basic styles -->
+<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/font.css" />
+<!-- ace styles -->
+<link rel="stylesheet" href="assets/css/ace.min.css" />
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="stylesheet" href="assets/css/setting.css" />
+</head>
+<body>
+<div class="navbar navbar-default" id="navbar">	
+    <div class="navbar-container" id="navbar-container">
+        <div class="navbar-header pull-left">
+            <a href="index.html" class="navbar-brand">
+                <small>
+                   <img src="assets/images/logo.png" alt="" class="logo">
+                </small>
+            </a>
+        </div>
+        <div class="navbar-header pull-right" role="navigation">
+            <ul class="nav ace-nav">
+                <li>
+                    <a href="#">
+                        <span class="calendar"></span>
+                    </a>                   
+                </li>
+                <li id="unread">
+                    <a href="#">
+                        <span class="bel"></span>
+                        <span class="badge badge-important">8</span>
+                    </a>                    
+                </li>
+                <li id="floatcart">
+                	<a href="#">
+                    	<span class="contact"></span>
+                    </a>
+                </li>
+            </ul><!-- /.ace-nav -->
+            <div class="nav-search" id="nav-search">
+                <form class="form-search" id="checkboxDemo">
+                    <span class="input-icon">
+                        <input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+                        <input type="submit" class="icon-search nav-search-icon">
+                    </span>
+                </form>
+            </div><!-- #nav-search -->
+        </div><!-- /.navbar-header -->
+    </div><!-- /.container -->
+</div>
+<div class="main-container" id="main-container">	
+    <div class="main-container-inner">
+        <div class="sidebar" id="sidebar">            
+            <div class="use_name">
+            	<span>AshadaulAshadaul..</span><i class="down"></i>
+                <div class="edit">
+                	<b class="close"></b>
+                    <font class="left"></font>
+                    <div class="user_photonews">
+                    <img src="assets/images/logo.png" alt="">
+                    <h5>Ashadaul Ashadaul..</h5>
+                    <h6>制作人</h6>
+                    <ul><li><a href="setting.html"><em class="set"></em></a></li><li><a href=""><em class="quit"></em></a></li></ul>
+                    </div>                   
+                </div>                
+            </div>            
+            <ul class="nav nav-list">
+                <li class="active">
+                   <a href="film.html"><i class="video"></i>影片</a>
+                </li>
+                <li>
+                   <a href="kehu.html"><i class="customer"></i>客户</a>
+                </li>
+                <li>
+                   <a href="resources.html"><i class="resources"></i>资源</a>
+                </li>
+                <li>
+                   <a href=""><i class="map"></i>地图</a>
+                </li>
+            </ul>            
+        </div>
+        <div class="main-content">
+        	<div class="page-content">            	
+            	<div class="news_box">
+                    <div class="change_photo">
+                        <img src="assets/images/ff-per.png" alt="更改头像" id="change_photo">
+                    </div>
+                	<span class="edit_icon"></span>
+                	<div class="title">个人信息</div>
+                    <form>
+                    <div class="edit_box">
+                    	<dl><dt>姓名：</dt><dd><p>制片人</p><input type="text"  class="text" value="制片人"/></dd></dl>
+                        <dl><dt>英文名：</dt><dd><p>Richard Emily</p><input type="text"  class="text" value="Richard Emily"/></dd></dl>
+                        <dl><dt>电话：</dt><dd><p>13000001234</p><input type="text"  class="text" value="13000001234"/></dd></dl>
+                        <dl><dt>邮箱：</dt><dd><p>whatsfilm@whatsfilm.org</p><input type="text" class="text" value="whatsfilm@whatsfilm.org" onBlur="checkmail()" required/></dd></dl>                        
+                        <dl><dt>地址：</dt><dd><p>中国 北京</p><input type="text"  class="text" value="中国 北京"/></dd></dl>
+                    </div>
+                    </form>
+                    <div class="btns_eidt"><a class="save" title="保存">保存</a><a class="candle" title="取消">取消</a></div>
+                </div>
+            	<div class="news_box">
+                	<span class="edit_icon"></span>
+                	<div class="title">公司信息</div>
+                    <form>
+                    <div class="edit_box">
+                    	<dl><dt>公司名称：</dt><dd><p>制片人</p><input type="text"  class="text" value="制片人"/></dd></dl>
+                        <dl><dt>公司英文名：</dt><dd><p>Richard Emily</p><input type="text"  class="text" value="Richard Emily"/></dd></dl>
+                        <dl><dt>电话：</dt><dd><p>13000001234</p><input type="text"  class="text" value="13000001234"/></dd></dl>
+                        <dl><dt>邮箱：</dt><dd><p>whatsfilm@whatsfilm.org</p><input type="text" class="text" value="whatsfilm@whatsfilm.org" /></dd></dl>
+                        <dl><dt>网址：</dt><dd><p>whatsfilm@whatsfilm.org</p><input type="text"  class="text" value="whatsfilm@whatsfilm.org"/></dd></dl>
+                        <dl><dt>公司地址：</dt><dd><p>中国 北京</p><input type="text"  class="text" value="中国 北京"/></dd></dl>
+                    </div>
+                    </form>
+                    <div class="btns_eidt"><a class="save" title="保存">保存</a><a class="candle" title="取消">取消</a></div>
+                </div>
+                <div class="news_box">
+                	<span class="edit_icon edit_icon2"></span>
+                	<div class="title">账户信息</div>
+                    <form name="form1" method="post">
+                    <div class="edit_box">
+                    	<dl><dt>账户：</dt><dd><p>Ashadaul islfsfsdf</p></dd></dl>
+                        <div class="change">
+                        	<dl><dt>旧密码：</dt><dd><input type="password"  class="text" /></dd></dl>
+                            <dl><dt>新密码：</dt><dd><input type="password"  class="text" name="yourpass" onBlur="checkpsd1()" required/><span class="tips" id="divpassword1">密码是6-16个字符</span></dd></dl>
+                            <dl><dt>确认密码：</dt><dd><input type="password"  class="text" name="yourpass2" onBlur="checkpsd2()" required /><span class="tips" id="divpassword2">请再次输入，两次密码必须一致</span></dd></dl>
+                        </div>
+                    </div>
+                    </form>
+                    <div class="btns_eidt"><a class="save" title="保存" id="save">保存</a><a class="candle" title="取消">取消</a></div>
+                </div>
+            </div>
+        	<footer>狮凰文化（北京）有限公司 版权所有 京ICP备13046562号-1</footer>
+        </div>
+    </div>
+    <div id="help"></div>
+</div>   
+</div>
+
+<div id="floatChat1">
+    <!--<div id="Chatreturn"></div>-->
+    <div class="leftsidebar_box">
+        <dl class="system_log" id="good">
+            <dt>联系人&nbsp;&nbsp;4/10</dt>
+            <dd class="first_dd">
+                <dl>
+                    <dd>
+                        <span>
+                        <a class="filmlogo" href="#"><img src="assets/images/6952.png"><font>2</font></a>
+                        <font class="fontname">Tom</font>
+                        <font class="fontvir">WildBunch</font>
+                        </span>
+                    </dd>
+                    <dd>
+                        <span>
+                        <a class="filmlogo" href="#"><img src="assets/images/6952.png"></a>
+                        <font class="fontname">Tom</font>
+                        <font class="fontvir">WildBunch</font>
+                        </span>
+                    </dd>    
+                </dl>
+            </dd>
+            
+        </dl>
+        <dl class="Addfriend" id="divObj1">
+            <dt onclick="$('#good').hide();$('#divObj1').hide();$('#divObj').show();">
+                <p><font>2</font></p>
+            </dt>
+        </dl>
+        <dl class="Addfriend" id="divObj">
+            <dt onclick="$('#divObj').hide();$('#divObj1').show();$('#good').show();">
+                <p>新好友申请消息
+                </p>
+            </dt>
+            <dd class="first_dd">
+                <dl>
+                    <dd>
+                        <span>
+                        <a class="filmlogo" href="#"><img src="assets/images/6952.png"></a>
+                        <font class="fontname">Tom</font>
+                        <font class="fontvir">WildBunch</font>
+                        <em>
+                            <a href="#" class="add"></a>
+                            <a href="#" class="dele"></a>
+                        </em>
+                        </span>
+                    </dd> 
+                    <dd>
+                        <span>
+                        <a class="filmlogo" href="#"><img src="assets/images/6952.png"></a>
+                        <font class="fontname">Tom</font>
+                        <font class="fontvir">WildBunch</font>
+                        <em>
+                            <a href="#" class="add"></a>
+                            <a href="#" class="dele"></a>
+                        </em>
+                        </span>
+                    </dd>   
+                </dl>
+            </dd>
+            
+        </dl>   
+    </div>
+</div>
+
+<!--帮助弹出框-->
+<div id="bg_help">
+	<div id="help_box">
+    	<div class="close"></div>
+    	<div class="title"></div>
+        <div class="help_con">
+        	<p>邮   箱</p>
+            <input type="text" placeholder="填写您的有效邮箱，我们会第一时间回复您。" class="text">
+            <p>我们能够帮助您做些什么</p>
+            <textarea placeholder="请在此填写您的帮助详情。"></textarea>
+        </div>
+        <div class="btns"><input type="button" value="取消" class="cancle"><input type="submit" class="addfriends" value="发送" onclick="startObjMessage('message')"></div>
+    </div>
+</div>
+<div id="message" class="message message_join">
+	<div class="title"></div>
+    <div class="besure"></div>
+    <p>密码设置成功。</p>
+</div>
+
+<!--头像上传弹出框-->
+<div id="box"></div>
+<div id="upload_photo">
+	<div class="close"></div>
+    <div class="title">上传头像</div>
+    <div class="upload">
+    	<div class="left_photo">
+          <p>当前头像</p>
+          <div class="old_photo"> <img src="assets/images/ff-per.png"></div>
+          <a id="save_photo">保存头像</a>
+        </div>
+        <div class="right_photo">
+        	<p>*仅支持JPG、JPEG、PNG图片文件、且文件小于5M</p>
+            <div class="choose">
+            	<button onClick="$('input[name=file]').click();">选择图片</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="assets/js/jquery-1.10.2.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/ace.min.js"></script>
+<script src="assets/js/index.js"></script>
+<script src="assets/js/sea.js"></script>
+<script type="text/javascript">
+$(function(){	
+	$('.edit_icon').click(function(){
+		$(this).parent('.news_box').find('input').show();
+		$(this).addClass('edit_icon_blue');
+		$(this).parent('.news_box').find('.btns_eidt').show();
+		});
+	$('.edit_icon2').click(function(){
+		$(this).parent('.news_box').find('input').show();
+		$(this).parent('.news_box').find('.change').show();
+		$(this).parent('.news_box').find('.btns_eidt').show();
+		});
+	$('.btns_eidt').find('.save').click(function(){ 
+	    var dom = $(this).parents('.news_box').find('input')
+		 $(dom).each(function(){
+		  $(this).prev('p').html($(this).val());
+		  $(dom).hide();
+		})
+		$(this).parent().hide();
+		$(this).parent().prev().find('.change').hide();
+		if($(this).parents('.news_box').find('span').hasClass("edit_icon_blue")){
+		$(this).parents('.news_box').find('span').removeClass("edit_icon_blue");
+		}
+	})	
+	$('.btns_eidt').find('.candle').click(function(){
+		$(this).parent('.btns_eidt').prev('form').find('input').hide();
+		$(this).parent('.btns_eidt').hide();
+		$(this).parent().prev().find('.change').hide();
+		if($(this).parents('.news_box').find('span').hasClass("edit_icon_blue")){
+		$(this).parents('.news_box').find('span').removeClass("edit_icon_blue");
+		}
+	});
+	$('#change_photo').click(function(){
+		$('#box').show();
+		$('#upload_photo').show();
+	})
+	$('#upload_photo').find('.close').click(function(){
+		$('#box').hide();
+		$('#upload_photo').hide();
+		})	
+})
+//验证密码 
+function checkpsd1(){    
+	psd1=form1.yourpass.value;  
+	var flagZM=false ;
+	var flagSZ=false ; 
+	var flagQT=false ;
+	if(psd1.length<6 || psd1.length>12){   
+		divpassword1.innerHTML='<font class="tips_false">密码必须是6-16个字符</font>';
+	}else
+		{divpassword1.innerHTML='<font class="tips_true"></font>';
+	}
+}
+//验证确认密码 
+function checkpsd2(){ 
+		if(form1.yourpass.value!=form1.yourpass2.value) { 
+		     divpassword2.innerHTML='<font class="tips_false">密码不一致</font>';
+		} else { 
+		     divpassword2.innerHTML='<font class="tips_true"></font>';
+		}
+}
+seajs.use(['jquery', 'src/dialog'], function ($, dialog) {
+	$('#save').on('click', function () {
+		var d = dialog({
+		content:  $('.message_join'),
+		width:"254px",
+		height:"150px",
+		});
+		d.show();
+		setTimeout(function () {
+			d.close().remove();
+		}, 2000);
+	});
+});
+
+</script>
+</body>
+</html>
